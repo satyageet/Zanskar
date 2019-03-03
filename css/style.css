@@ -781,6 +781,9 @@ body, html {
     margin-right: 0;
     margin-bottom: 30px;
   }
+  .flx-nav > div{
+    font-size: 30px;
+  }
 }
 
 
