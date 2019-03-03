@@ -1093,7 +1093,6 @@ input[type=submit]:after {
 }
 
 .copyright_row{
-  margin-top: 1px;
   color: white;
   /*padding-top: 8px;*/
   /*position: relative;*/
@@ -1152,7 +1151,8 @@ input[type=submit]:after {
 .fa {
   padding: 7px;
   /*font-size: 40px;*/
-  width: 32px;
+  width: 62px;
+  height: 62px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
