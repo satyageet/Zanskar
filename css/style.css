@@ -29,7 +29,7 @@ body, html {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-color:#00000;
+  background-color:#000000;
   position: fixed;
   top: 0;
   width: 100%;
