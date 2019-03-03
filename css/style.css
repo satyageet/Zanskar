@@ -1024,7 +1024,6 @@ input[type=submit]:after {
   border: 10px solid white;
   margin: 50px;
   text-align: center;
-  max-height: 400px;
   float: left;
   width: 60%;
   padding: 20px;
