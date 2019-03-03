@@ -5,7 +5,7 @@ font-family: 'Aleo', serif;
 }
 
 body, html {
-  background-color:#e0e0d1;
+  background-color:#111;
   height: 100%;
   margin: 0;
 }
@@ -436,7 +436,7 @@ body, html {
   height: 400px;
   max-width: 350px;
   margin: 0 auto 35px;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .row_second_1 .col-1-of-1{
@@ -673,15 +673,13 @@ body, html {
 /********card description*********/
 
 .card_rep {
-  padding: 5px;
   background-color: #e69900;
   margin: 0 auto;
   transition: 0.3s;
   width: 100%;
   border-radius: 5px;
   border-radius: 12px;
-  box-shadow: 0px 2px 40px 6px rgba(0,0,0,0.2);
-}
+  }
 
 .card_rep:hover {
   transform:translateY(-20px) scale(1.0);
