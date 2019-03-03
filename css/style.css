@@ -673,6 +673,7 @@ body, html {
 /********card description*********/
 
 .card_rep {
+  padding-bottom: 8px;
   background-color: #e69900;
   margin: 0 auto;
   transition: 0.3s;
