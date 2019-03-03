@@ -29,7 +29,7 @@ body, html {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-color:#e0e0d1;
+  background-color:#00000;
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,22 +37,22 @@ body, html {
 
 .flx-nav > div {
   /*z-index: 1;*/
-  /*background-color: #809fff;*/
-  text-shadow: 6px 5px 11px #cc6600;
+  /*background-color: #809fff;
+  text-shadow: 6px 5px 11px #cc6600;*/
   color: #cc6600;
   /*width: 230px;*/
   margin: 1px;
-  height:51px;
   /*text-align:center;*/
   line-height: 62px;
-  font-size: 27px;
+  font-size: 50px;
+  align-self: center;
 }
 
 /*img #logo{
   width: 70px;
 }*/
 .flx-nav .circle img {
-  width: 49px;
+  width: 75px;
   /*box-shadow: 2px 2px  #cc6600;*/
   position:relative;
   border-radius: 50%;
@@ -71,7 +71,7 @@ body, html {
 }
 
 .flx-nav .house-div{
-width:98px;
+/*width:98px;*/
 }
 
 
@@ -81,8 +81,8 @@ width:98px;
   z-index: 1;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  background-color: #e0e0d1;
-  top:54px;
+  background-color: #000000;
+  top:106px;
   position: fixed;
   width:100%;
   float: left;
@@ -113,7 +113,7 @@ width:98px;
   /*border-bottom: 3px solid  #cc6600;*/
   border-bottom: 3px solid  black;
   /*background-color:  #994d00;*/
-  color: black;
+  color: white;
 }
 
 /*.menu a:not(:last-child){
@@ -135,7 +135,7 @@ width:98px;
 { 
   max-width:1000%;
   position: relative;
-  margin-top: 76px;
+  margin-top: 138px;
   
 }
 
