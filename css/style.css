@@ -917,10 +917,10 @@ body, html {
 /* Style inputs */
 input[type=text], select, textarea {
   /*box-shadow: 1px 1px 8px  rgba(0,0,0,0.2);*/
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   width: 100%;
   padding: 8px;
-  border: 2px solid #ccc;
+  /*border: 2px solid #ccc;*/
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -973,9 +973,9 @@ input[type=submit]:after {
 }
 
 .row-con{
-  /*background:#ffcc66;*/
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffcc00), to( #cc6600));
-  background-image: linear-gradient(to right bottom, #ffcc00,  #cc6600);
+  background:#142c44;
+  /*background-image: -webkit-gradient(linear, left top, right bottom, from(#ffcc00), to( #cc6600));
+  background-image: linear-gradient(to right bottom, #ffcc00,  #cc6600);*/
   margin: 30px;
    box-shadow: 1px 1px 8px  rgba(0,0,0,0.2);
 }
@@ -1221,13 +1221,14 @@ input[type=submit]:after {
 
 
 #myBtn{
-  box-shadow: 1px 1px 8px  rgba(0,0,0,0.2);
+  /*box-shadow: 1px 1px 8px  rgba(0,0,0,0.2);*/
   border-radius: 50px;
-  background-color: #cc9900;
-  color: white;
+  background-color: #91dc5a;
+  color: #142c44;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  font-weight:bold;
 }
 
 #myBtn:hover {
