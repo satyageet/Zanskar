@@ -1,9 +1,37 @@
 <!DOCTYPE HTML>
 <HTML LANG="EN">
 <head>
-  <style>
-  
-  </style>
+ <style>
+  @keyframes ticker {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
+  }
+  .tcontainer{
+    width: 100%;
+    overflow: hidden;
+  }
+  .ticker-wrap {
+    width: 100%;
+    padding-left: 100%;
+    background-color: #eee;
+  }
+  .ticker-move {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 30s;
+  }
+  .ticker-move:hover{
+    animation-play-state: paused;
+  }
+  .ticker-item{
+    display: inline-block;
+    padding: 0 2rem;
+  }
+</style>
 	    <title>Zanskar</title>
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
       
@@ -77,19 +105,29 @@
           </div>
     <!-- </div> -->
 
-		  <div class="about_row" style="background-color:#ffd24d; box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);">
+	<div class="about_row" style="background-color:#ffd24d;box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.2);text-align: -webkit-center;padding: 20px;">
                 <div class="about_column" style="background-color:#ffd24d;">
                   <h2>Zanskar House</h2>
                   <p>  As majestic as the humongous mountains we are named after, we are serving as a home away from home for the arguably the most brilliant brains of India since our establishment in 2006. Zanskar offers every esteemed member, a unique environment to develop and hone his skills to come off as a leader and successful individual, with amenities of great infrastructure and a family of students who are aces in a wide array of fields. From academics to sports to cultural activities, Zanskar is a hub to discover your talent and explore your hobbies. Just like copper, after which the original Zanskar valley is named, we transmit a sense of pride and the skills coexistence and mutual benefits to live up to the virtue of “Win One, Win All”. We not only give you a legacy to live up to but a chance to create one for yourself. So sit tight and enjoy your time with us, chill, make a new family, share your sorrows and happiness, to create memories and live the most memorable years of your life. And allow me to let you in on a small secret, It’s not just our hostel, it’s our home!</p>
-                </div>
+                </div>              
                 
-                <div class="about_column1" style="background-color:#bbb;">
-                  <h2>News </h2>
-                  <p>Zanskar retains its podium finish in BSA Inter-Hostel General Championship(GC)</p>
-                  <p>Zanskar House organized a three-day extravaganza- 'Zenith' from 27th February to 1st March</p>
-                  <p>Funding of Rs. 20,000 procured from IITDAA for Zanskar Innovation Centre</p>
-                </div>
       </div>
+	
+	<div style="text-align: -webkit-center;padding: 15px 0 15px 0;font-size: 2em;">News</div>
+	
+	<div style="background-color: #eee;">
+    
+<div class="tcontainer">
+    <div class="ticker-wrap">
+      <div class="ticker-move">
+        <div class="ticker-item">Zanskar retains its podium finish in BSA Inter-Hostel General Championship(GC)</div>
+        <div class="ticker-item">Zanskar House organized a three-day extravaganza- 'Zenith' from 27th February to 1st March</div>
+        <div class="ticker-item">Funding of Rs. 20,000 procured from IITDAA for Zanskar Innovation Centre</div>
+        
+      </div>
+    </div>
+  </div>
+</div>
     			
 		
     <div class="footer_row" style="margin-top: 20px;">
