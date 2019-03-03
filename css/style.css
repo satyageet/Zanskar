@@ -1132,6 +1132,7 @@ input[type=submit]:after {
   text-decoration: none;
   color: #91dc5a;
   display: block;
+  padding-bottom: 10px;
 }
 .footer_column .sidebar{
   height: 100px;
