@@ -879,11 +879,11 @@ body, html {
 }*/
 
 .flip-card-back {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffcc00), to( #cc6600));
-  background-image: linear-gradient(to right bottom, #ffcc00,  #cc6600);
+  /*background-image: -webkit-gradient(linear, left top, right bottom, from(#ffcc00), to( #cc6600));
+  background-image: linear-gradient(to right bottom, #ffcc00,  #cc6600);*/
   /*padding:10px;*/
-  /*background-color: #cc6600;*/
-  color: white;
+  background-color: #f1f1f1;
+  color: black;
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
